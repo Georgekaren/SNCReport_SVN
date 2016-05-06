@@ -1,0 +1,26 @@
+
+两部分：
+ 设计器、web工程
+ 
+
+设计器用于制作报表，并生成到web工程下面。
+web工程用于部署到服务器。
+
+1.设计器目录：WebRoot/designer/(右键运行类 StartDesigner 即可打开设计器 )
+2。web工程，正常部署即可，其中两点需要说明：
+
+<1. 添加一个新的数据远会修改WebRoot/WEB-INF/resources/datasource.xml 文件，如果增加或首次使用数据源，记得想服务器上发布该文件。新增报表不需要重复修改数据源，同一个数据库地址，同步一次即可。
+<2. 报表目录为：WebRoot/WEB-INF/reportlets，使用设计器启动时会选择报表目录，选择/WebRoot/WEB-INF 即可。
+
+
+部署说明：
+初次部署将整个WebRoot打war包，包名需要为SNCReport.war
+
+增量报表升级，只需要更新WebRoot/WEB-INF/reportlets 目录即可，且不需要重启。
+
+
+系统说明：
+管理员账号：georgekaren/q1w2e3
+
+
+

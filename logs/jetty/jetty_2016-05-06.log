@@ -1,0 +1,36 @@
+Exception in thread "Thread-6" java.lang.NullPointerException
+	at com.fr.general.http.HttpClient.getResponseCode(Unknown Source)
+	at com.fr.general.http.HttpClient.getResponseCodeNoException(Unknown Source)
+	at com.fr.general.http.HttpClient.isServerAlive(Unknown Source)
+	at com.fr.design.mainframe.bbs.UserInfoLabel$1.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Exception in thread "Thread-11" java.lang.NullPointerException
+	at com.fr.general.http.HttpClient.getResponseCode(Unknown Source)
+	at com.fr.general.http.HttpClient.getResponseCodeNoException(Unknown Source)
+	at com.fr.general.http.HttpClient.isServerAlive(Unknown Source)
+	at com.fr.design.mainframe.InformationCollector.sendUserInfo(Unknown Source)
+	at com.fr.design.mainframe.InformationCollector.access$100(Unknown Source)
+	at com.fr.design.mainframe.InformationCollector$1.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Exception while removing reference.
+Exception in thread "Thread-7" java.lang.NullPointerException
+	at com.fr.general.http.HttpClient.getResponseCode(Unknown Source)
+	at com.fr.general.http.HttpClient.getResponseCodeNoException(Unknown Source)
+	at com.fr.general.http.HttpClient.isServerAlive(Unknown Source)
+	at com.fr.design.mainframe.bbs.UserInfoLabel$2.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Exception in thread "Thread-6" java.lang.NullPointerException
+	at com.fr.general.http.HttpClient.getResponseCode(Unknown Source)
+	at com.fr.general.http.HttpClient.getResponseCodeNoException(Unknown Source)
+	at com.fr.general.http.HttpClient.isServerAlive(Unknown Source)
+	at com.fr.design.mainframe.bbs.UserInfoLabel$1.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Exception in thread "Thread-11" java.lang.NullPointerException
+	at com.fr.general.http.HttpClient.getResponseCode(Unknown Source)
+	at com.fr.general.http.HttpClient.getResponseCodeNoException(Unknown Source)
+	at com.fr.general.http.HttpClient.isServerAlive(Unknown Source)
+	at com.fr.design.mainframe.InformationCollector.sendUserInfo(Unknown Source)
+	at com.fr.design.mainframe.InformationCollector.access$100(Unknown Source)
+	at com.fr.design.mainframe.InformationCollector$1.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Exception while removing reference.
